@@ -1,10 +1,12 @@
 "use client"
 import Image from "next/image";
 import ThemeChangeButton from "./ThemeChangeButton";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { navbarLinks, socialLinks } from "@/utils/constants";
+
 export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false)
+	
 	return <header>
 		<nav className="fixed overflow-hidden z-20 w-full bg-white/80 rounded-b-lg border-b border-neutral-500/20 border-x backdrop-blur-lg">
 			<div className="px-6 m-auto max-w-6xl 2xl:px-0">
