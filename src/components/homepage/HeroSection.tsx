@@ -16,7 +16,7 @@ export default function HeroSection() {
                                 <li>Digital Marketer</li>
                                 <li>SEO Specialist</li>
                                 <li>Ethical Hacker</li>
-                                <li aria-hidden="true">Influencer Marketer</li>
+                                <li aria-hidden="true">Professional Carter</li>
                             </ul>
                         </span>
                     </h1>
