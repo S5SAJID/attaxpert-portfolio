@@ -13,4 +13,6 @@ export const navbarLinks:NavbarLinkProps[] = [
 export const socialLinks = {
 	"instagram" : {link: "https://www.instagram.com/al._quran_urdu"},
 	"whatsapp" : {link: "https://wa.me/923430063414?text=Hello,%20Atta%20i%20want%20to%20talk%20with%20you!"},
+	"facebook" : {link: "https://www.facebook.com/profile.php?id=61559890619310&mibextid=ZbWKwL"},
+	"youtube": {link: "https://youtube.com/@alquranurduyt"}
 }

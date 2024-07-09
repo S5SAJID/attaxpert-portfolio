@@ -1,5 +1,5 @@
 import { socialLinks } from '@/utils/constants';
-import { Facebook, Instagram, Twitch } from 'lucide-react'
+import { Facebook, Instagram, Twitch, Youtube } from 'lucide-react'
 import Image from 'next/image';
 
 export default function HeroSection() {
@@ -34,11 +34,11 @@ export default function HeroSection() {
                         <a href={socialLinks['instagram'].link} target='_blank' className='p-2 bg-slate-800 group rounded-xl block'>
                             <Instagram size={20} className='group-hover:stroke-slate-300 duration-100' />
                         </a>
-                        <a href="#" target='_blank' className='p-2 bg-slate-800 group rounded-xl block'>
+                        <a href={socialLinks['facebook'].link} target='_blank' className='p-2 bg-slate-800 group rounded-xl block'>
                             <Facebook size={20} className='group-hover:stroke-slate-300 duration-100' />
                         </a>
-                        <a href="#" target='_blank' className='p-2 bg-slate-800 group rounded-xl block'>
-                            <Twitch size={20} className='group-hover:stroke-slate-300 duration-100' />
+                        <a href={socialLinks['youtube'].link} target='_blank' className='p-2 bg-slate-800 group rounded-xl block'>
+                            <Youtube size={20} className='group-hover:stroke-slate-300 duration-100' />
                         </a>
                     </div>
                     <Image width={1500} height={1500} alt="hero" src="/images/personal/down-circle.png" className="lg:w-2/6 md:w-3/6 w-5/6  object-cover object-center rounded" />

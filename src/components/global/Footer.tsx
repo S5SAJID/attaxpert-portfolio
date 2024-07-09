@@ -1,5 +1,5 @@
 import { navbarLinks, socialLinks } from "@/utils/constants";
-import { Instagram, MessageCircle } from "lucide-react";
+import { Instagram, MessageCircle, Youtube, Facebook } from "lucide-react";
 import Image from "next/image";
 
 export default function Footer() {
@@ -26,6 +26,12 @@ export default function Footer() {
                         <ul className="flex gap-1 items-center">
                         <li>
                                 <a className="flex items-center justify-center text-blue-500 transition hover:text-blue-600" aria-label="Instagram" href={socialLinks['instagram'].link}><Instagram size={20}/></a>
+                            </li>
+                        <li>
+                                <a className="flex items-center justify-center text-blue-500 transition hover:text-blue-600" aria-label="Youtube" href={socialLinks['youtube'].link}><Youtube size={20}/></a>
+                            </li>
+                        <li>
+                                <a className="flex items-center justify-center text-blue-500 transition hover:text-blue-600" aria-label="Facebbok" href={socialLinks['facebook'].link}><Facebook size={20}/></a>
                             </li>
                             <li>
                                 <a className="flex items-center justify-center text-blue-500 transition hover:text-blue-600" aria-label="Whatsapp" href={socialLinks['whatsapp'].link}><MessageCircle size={20}/></a>
